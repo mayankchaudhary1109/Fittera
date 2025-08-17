@@ -1,0 +1,26 @@
+/* Slider.css */
+.carousel-inner {
+    position: relative;
+  }
+  
+  .slide-text {
+    position: absolute;
+    right: 10%; /* Use relative units */
+    top: 30%; /* Use relative units */
+    font-size: 2rem; /* Use relative units */
+    color: white;
+  }
+  
+  .slide-image {
+    width: 100%;
+    height: auto;
+    max-height: 700px;
+  }
+  
+  /* Add media queries for responsiveness */
+  @media (max-width: 768px) {
+    .slide-text {
+      font-size: 1.5rem;
+    }
+  }
+  
